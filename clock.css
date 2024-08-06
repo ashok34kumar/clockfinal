@@ -1,14 +1,27 @@
 body {
     background-color: #212121;
     color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+
 .center {
     display: flex;
-    height: 100vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
+
+#banner {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
 #clock {
     font-size: 40px;
     background-color: orange;
@@ -16,6 +29,7 @@ body {
     margin-top: 10px;
     border-radius: 10px;
     color: #fff;
+    font-weight: bold;
 }
 
 
